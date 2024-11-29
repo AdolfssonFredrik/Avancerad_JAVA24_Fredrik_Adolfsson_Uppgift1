@@ -5,13 +5,20 @@ import java.util.Scanner;
 public class RentCar {
     public void rentCar(Vehicle vehicle) {
         Scanner sc = new Scanner(System.in);
+        int answer = 0;
         while(true){
 
             System.out.println("Would you like to rent? (y/n)");
             String choice = sc.nextLine();
             if(choice.equalsIgnoreCase("y")) {
-                System.out.println("How many days do you want to rent the " + vehicle.getMake() + " for?");
-                int answer = sc.nextInt();
+
+                try {
+                    System.out.println("How many days do you want to rent the " + vehicle.getMake() + " for?");
+                    answer = sc.nextInt();
+                } catch (Exception e) {
+                    System.out.println("Not a valid option. Stopping rent processes.");
+                    break;
+                }
 
                 vehicle.setDaysRented(answer);
                 System.out.println("For " + answer + " days it will cost you " + vehicle.calculatePrice() + "kr.");
@@ -27,7 +34,7 @@ public class RentCar {
                 break;
             }
             else if(choice.equalsIgnoreCase("n")) {
-                continue;
+                break;
             }
             else{
                 System.out.println("Please enter a valid choice.");

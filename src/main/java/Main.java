@@ -19,6 +19,8 @@ public class Main {
 
     static String answer;
 
+    static String line = "|======================================|";
+
     public static void main(String[] args) {
         sc = new Scanner(System.in);
 
@@ -36,7 +38,7 @@ public class Main {
 
     }
     public static void display() {
-        System.out.println("|======================================|");
+        System.out.println(line);
         System.out.println(" Welcome to RentACarAB!");
         System.out.println();
 
@@ -67,7 +69,7 @@ public class Main {
             }
         }
         System.out.println("  " + index + ". Exit");
-        System.out.println("|======================================|");
+        System.out.println(line);
 
         while (true) {
             System.out.println("Please enter your choice:");
@@ -111,7 +113,7 @@ public class Main {
             }
         }
         System.out.println("  " + index + ". Exit");
-        System.out.println("|======================================|");
+        System.out.println(line);
 
         while (true) {
             System.out.println("Please enter your choice:");
