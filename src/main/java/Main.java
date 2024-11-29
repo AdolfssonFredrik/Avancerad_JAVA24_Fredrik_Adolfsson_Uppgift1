@@ -1,4 +1,8 @@
-import java.sql.SQLOutput;
+import vehicles.Convertible;
+import vehicles.Suv;
+import vehicles.Truck;
+import vehicles.Vehicle;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -57,7 +61,7 @@ public class Main {
         int index = 1;
 
         for (Vehicle vehicle : vehicles) {
-            if(!vehicle.isRented){
+            if(!vehicle.getIsRented()){
                 System.out.println("  " + index + ". " + vehicle.getMake());
                 index++;
             }
@@ -101,7 +105,7 @@ public class Main {
         int index = 1;
 
         for (Vehicle vehicle : vehicles) {
-            if(vehicle.isRented){
+            if(vehicle.getIsRented()){
                 System.out.println("  " + index + ". " + vehicle.getMake());
                 index++;
             }
@@ -131,7 +135,6 @@ public class Main {
             }
             else {
                 System.out.println("Please enter a valid choice.");
-                continue;
             }
 
 
