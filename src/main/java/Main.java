@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -91,8 +90,6 @@ public class Main {
             else {
                 System.out.println("Please enter a valid choice.");
             }
-
-
         }
     }
     public static void returnCar(){
@@ -131,10 +128,7 @@ public class Main {
             }
             else {
                 System.out.println("Please enter a valid choice.");
-                continue;
             }
-
-
         }
     }
 
