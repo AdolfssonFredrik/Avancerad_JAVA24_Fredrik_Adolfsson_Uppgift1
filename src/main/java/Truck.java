@@ -1,4 +1,23 @@
-package PACKAGE_NAME;
+public class Truck extends Vehicle{
+    private int truckCapacity;
 
-public class Truck {
+    public Truck(String make, String regNumber, int rentPricePerDay, int truckCapacity, Boolean isRented) {
+        super(make, regNumber, rentPricePerDay, isRented);
+        this.truckCapacity = truckCapacity;
+    }
+
+    @Override
+    public void vehicleInfo() {
+        super.vehicleInfo();
+        System.out.println("  " + "- Truck capacity: " + truckCapacity);
+    }
+
+
+    public int getTruckCapacity() {
+        return truckCapacity;
+    }
+
+    public void setTruckCapacity(int truckCapacity) {
+        this.truckCapacity = truckCapacity;
+    }
 }

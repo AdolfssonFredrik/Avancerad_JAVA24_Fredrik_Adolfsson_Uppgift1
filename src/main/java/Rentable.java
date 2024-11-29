@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
 public interface Rentable {
+    void rentCar(int daysRented);
+    void returnCar();
+    int calculatePrice();
+
 }
