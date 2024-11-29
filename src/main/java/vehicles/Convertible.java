@@ -1,3 +1,5 @@
+package vehicles;
+
 public class Convertible extends Vehicle {
     private int coolnessFactor;
 

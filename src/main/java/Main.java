@@ -1,4 +1,8 @@
-import java.sql.SQLOutput;
+import vehicles.Convertible;
+import vehicles.Suv;
+import vehicles.Truck;
+import vehicles.Vehicle;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -18,9 +22,9 @@ public class Main {
     public static void main(String[] args) {
         sc = new Scanner(System.in);
 
-        truck = new Truck("Truck", "ABC123", 20, 100, true);
-        convertible = new Convertible("Convertible", "CHT982", 60, 100, false);
-        suv = new Suv("Suv", "AIN201", 45, 4, false);
+        truck = new Truck("vehicles.Truck", "ABC123", 20, 100, true);
+        convertible = new Convertible("vehicles.Convertible", "CHT982", 60, 100, false);
+        suv = new Suv("vehicles.Suv", "AIN201", 45, 4, false);
 
         vehicles = new ArrayList<>();
         vehicles.add(truck);
@@ -57,7 +61,7 @@ public class Main {
         int index = 1;
 
         for (Vehicle vehicle : vehicles) {
-            if(!vehicle.isRented){
+            if(!vehicle.getIsRented()){
                 System.out.println("  " + index + ". " + vehicle.getMake());
                 index++;
             }
@@ -101,7 +105,7 @@ public class Main {
         int index = 1;
 
         for (Vehicle vehicle : vehicles) {
-            if(vehicle.isRented){
+            if(vehicle.getIsRented()){
                 System.out.println("  " + index + ". " + vehicle.getMake());
                 index++;
             }

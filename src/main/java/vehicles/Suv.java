@@ -1,3 +1,5 @@
+package vehicles;
+
 public class Suv extends Vehicle {
     private int lengthInMeters;
 

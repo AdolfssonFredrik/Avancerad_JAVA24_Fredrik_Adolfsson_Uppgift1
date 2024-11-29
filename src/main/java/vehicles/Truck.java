@@ -1,4 +1,6 @@
-public class Truck extends Vehicle{
+package vehicles;
+
+public class Truck extends Vehicle {
     private int truckCapacity;
 
     public Truck(String make, String regNumber, int rentPricePerDay, int truckCapacity, Boolean isRented) {
@@ -9,7 +11,7 @@ public class Truck extends Vehicle{
     @Override
     public void vehicleInfo() {
         super.vehicleInfo();
-        System.out.println("  " + "- Truck capacity: " + truckCapacity);
+        System.out.println("  " + "- vehicles.Truck capacity: " + truckCapacity);
     }
 
 

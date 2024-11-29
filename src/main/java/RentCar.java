@@ -1,3 +1,5 @@
+import vehicles.Vehicle;
+
 import java.util.Scanner;
 
 public class RentCar {
@@ -8,7 +10,7 @@ public class RentCar {
             System.out.println("Would you like to rent? (y/n)");
             String choice = sc.nextLine();
             if(choice.equalsIgnoreCase("y")) {
-                System.out.println("How many days do you want to rent the " + vehicle.make + " for?");
+                System.out.println("How many days do you want to rent the " + vehicle.getMake() + " for?");
                 int answer = sc.nextInt();
 
                 vehicle.setDaysRented(answer);

@@ -1,3 +1,5 @@
+package vehicles;
+
 public abstract class Vehicle implements Rentable {
     final String make;
     final String regNumber;
