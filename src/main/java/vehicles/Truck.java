@@ -13,13 +13,4 @@ public class Truck extends Vehicle {
         super.vehicleInfo();
         System.out.println("  " + "- vehicles.Truck capacity: " + truckCapacity);
     }
-
-
-    public int getTruckCapacity() {
-        return truckCapacity;
-    }
-
-    public void setTruckCapacity(int truckCapacity) {
-        this.truckCapacity = truckCapacity;
-    }
 }

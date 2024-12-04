@@ -15,13 +15,4 @@ public class Convertible extends Vehicle {
         System.out.println("  " + "- CoolnessFactor: " + coolnessFactor);
     }
 
-
-
-    public int getCoolnessFactor() {
-        return coolnessFactor;
-    }
-
-    public void setCoolnessFactor(int coolnessFactor) {
-        this.coolnessFactor = coolnessFactor;
-    }
 }

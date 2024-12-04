@@ -12,12 +12,4 @@ public class Suv extends Vehicle {
         super.vehicleInfo();
         System.out.println("  " + "- Length: " + lengthInMeters + " meters");
     }
-
-    public int getLengthInMeters() {
-        return lengthInMeters;
-    }
-
-    public void setLengthInMeters(int lengthInMeters) {
-        this.lengthInMeters = lengthInMeters;
-    }
 }
