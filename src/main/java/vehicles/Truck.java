@@ -1,7 +1,7 @@
 package vehicles;
 
 public class Truck extends Vehicle {
-    private int truckCapacity;
+    private final int truckCapacity;
 
     public Truck(String make, String regNumber, int rentPricePerDay, int truckCapacity, Boolean isRented) {
         super(make, regNumber, rentPricePerDay, isRented);

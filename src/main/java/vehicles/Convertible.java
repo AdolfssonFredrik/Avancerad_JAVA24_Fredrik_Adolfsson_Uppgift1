@@ -1,7 +1,7 @@
 package vehicles;
 
 public class Convertible extends Vehicle {
-    private int coolnessFactor;
+    private final int coolnessFactor;
 
 
     public Convertible(String make, String regNumber, int rentPricePerDay, int coolnessFactor, Boolean isRented) {

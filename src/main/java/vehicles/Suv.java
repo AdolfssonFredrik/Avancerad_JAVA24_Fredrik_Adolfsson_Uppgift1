@@ -1,7 +1,7 @@
 package vehicles;
 
 public class Suv extends Vehicle {
-    private int lengthInMeters;
+    private final int lengthInMeters;
 
     public Suv(String make, String regNumber, int rentPricePerDay, int lengthInMeters, Boolean isRented) {
         super(make, regNumber, rentPricePerDay, isRented);
