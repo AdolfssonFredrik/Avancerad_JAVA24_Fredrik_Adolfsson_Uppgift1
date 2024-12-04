@@ -24,9 +24,9 @@ public class Main {
     public static void main(String[] args) {
         sc = new Scanner(System.in);
 
-        truck = new Truck("Truck", "ABC123", 20, 100, true);
-        convertible = new Convertible("Convertible", "CHT982", 60, 100, false);
-        suv = new Suv("Suv", "AIN201", 45, 4, false);
+        truck = new Truck("Truck", "ABC123", 200, 100, false);
+        convertible = new Convertible("Convertible", "CHT982", 600, 100, false);
+        suv = new Suv("Suv", "AIN201", 450, 4, false);
 
         vehicles = new ArrayList<>();
         vehicles.add(truck);

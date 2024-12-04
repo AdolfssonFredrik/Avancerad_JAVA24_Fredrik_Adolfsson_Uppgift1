@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class RentCar {
     public void rentCar(Vehicle vehicle) {
         Scanner sc = new Scanner(System.in);
-        int answer = 0;
+        int answer;
         while(true){
 
             System.out.println("Would you like to rent? (y/n)");
@@ -21,6 +21,8 @@ public class RentCar {
                 }
 
                 vehicle.setDaysRented(answer);
+
+
                 System.out.println("For " + answer + " days it will cost you " + vehicle.calculatePrice() + "kr.");
                 System.out.println("Would you like to continue? (y/n)");
 
