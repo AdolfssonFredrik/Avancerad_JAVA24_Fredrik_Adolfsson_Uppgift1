@@ -51,14 +51,6 @@ public abstract class Vehicle implements Rentable {
         return make;
     }
 
-    public String getRegNumber() {
-        return regNumber;
-    }
-
-    public int getRentPricePerDay() {
-        return rentPricePerDay;
-    }
-
     public int getDaysRented() {
         return daysRented;
     }

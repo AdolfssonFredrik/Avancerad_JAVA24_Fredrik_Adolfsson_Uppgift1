@@ -8,7 +8,7 @@
 
 ### :wave: Introduction 
 
-This project was made for an assingment in school. The assingment was to make a virtual car rental service. The project requierd us to use abstract classes and interfaces to accomplish this task.
+This project was made for an assignment in school. The assignment was to make a virtual car rental service. The project required us to use abstract classes and interfaces to accomplish this task.
 
 ---
 
@@ -27,7 +27,49 @@ git clone https://github.com/AdolfssonFredrik/Avancerad_JAVA24_Fredrik_Adolfsson
 5. Done! :partying_face:
 ---
 
-### :robot: Method Explanation
+### :robot: Method & Class Explanation
+
+### Methods
+
+- #### display()
+  - This method displays the main menu where you select if you want to rent or return a car.
 
 
+- #### rent()
+  - This method is responsible for displaying which cars are available to rent and displaying them. It also deals with the selection of the car.
+
+- #### returnCar()
+  - This method is responsible for displaying which cars are available to return and displaying them. It also deals with the selection of the car.
+
+- #### vehicleInfo()
+  - This method display the info for the vehicel.
+
+- #### start()
+  - This method writes out the make of the car and then " starts".
+
+- #### rentCar(int daysRented)
+  - This method handels the renting of a given car.
+
+- #### returnCar()
+  - This method handels returning a car.
+
+- #### calculatePrice()
+  - This method calculates the price for the total amount of time the user wants to rent the car.
+
+- #### rent(Vehicle vehicle)
+  - This method handels the rent processes. For example displaying the calculated price and asking for confirmation if the user wants to rent the car.
+
+
+### Classes
+
+- #### Rentable.java
+  - This is an interface responsible for the three methods all rentable cars needs to have.
+    - RentCar(int daysRented)
+    - returnCar
+    - calculatePrice
+
+- #### Vehicle.java
+  - This is an abstract class that has the base for all vehicles including methods and variables.
+
+    
 ---
