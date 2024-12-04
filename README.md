@@ -14,7 +14,16 @@ This project was made for an assingment in school. The assingment was to make a 
 
 ### :rocket: Getting started 
 
+Here is how to use this Repo for yourself:
 
+- Open Git Bash
+- Go to the directory where you want the project
+- Write the following command
+
+
+    git clone https://github.com/AdolfssonFredrik/Avancerad_JAVA24_Fredrik_Adolfsson_Uppgift1.git
+
+- Done! :partying_face:
 ---
 
 ### :robot: Method Explanation
