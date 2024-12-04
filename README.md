@@ -8,7 +8,7 @@
 
 ### :wave: Introduction 
 
-This project was made for an assignment in school. The assignment was to make a virtual car rental service. The project required us to use abstract classes and interfaces to accomplish this task.
+This project was made for an assignment in school. The assignment was to make a virtual car rental service. The project required us to use abstract classes, encapsulation and interfaces to accomplish this task.
 
 ---
 
@@ -42,22 +42,22 @@ git clone https://github.com/AdolfssonFredrik/Avancerad_JAVA24_Fredrik_Adolfsson
   - This method is responsible for displaying which cars are available to return and displaying them. It also deals with the selection of the car.
 
 - #### vehicleInfo()
-  - This method display the info for the vehicel.
+  - This method display the info for the vehicle.
 
 - #### start()
   - This method writes out the make of the car and then " starts".
 
 - #### rentCar(int daysRented)
-  - This method handels the renting of a given car.
+  - This method handles the renting of a given car.
 
 - #### returnCar()
-  - This method handels returning a car.
+  - This method handles returning a car.
 
 - #### calculatePrice()
   - This method calculates the price for the total amount of time the user wants to rent the car.
 
 - #### rent(Vehicle vehicle)
-  - This method handels the rent processes. For example displaying the calculated price and asking for confirmation if the user wants to rent the car.
+  - This method handles the rent processes. For example displaying the calculated price and asking for confirmation if the user wants to rent the car.
 
 
 ### Classes
