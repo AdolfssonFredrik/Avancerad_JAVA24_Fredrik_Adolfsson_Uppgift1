@@ -16,14 +16,15 @@ This project was made for an assingment in school. The assingment was to make a 
 
 Here is how to use this Repo for yourself:
 
-- Open Git Bash
-- Go to the directory where you want the project
-- Write the following command
+1. Open Git Bash
+2. Go to the directory where you want the project
+3. Write the following command
+```
+git clone https://github.com/AdolfssonFredrik/Avancerad_JAVA24_Fredrik_Adolfsson_Uppgift1.git
+```
 
-
-    git clone https://github.com/AdolfssonFredrik/Avancerad_JAVA24_Fredrik_Adolfsson_Uppgift1.git
-
-- Done! :partying_face:
+4. Open the project in your ide of choice and hit run.
+5. Done! :partying_face:
 ---
 
 ### :robot: Method Explanation
